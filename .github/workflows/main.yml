@@ -31,4 +31,4 @@ jobs:
     - name: surge installing gloabally
       run: npm i -g  surge
     - name: surge is running
-      run: surge ./build http://umarkhan_uk_react.surge.sh/ --token ${{secrets.REACT_SURGE_TOKEN}}
+      run: surge ./build http://umarkhan_uk_react.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
