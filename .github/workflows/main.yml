@@ -27,7 +27,7 @@ jobs:
     - name: npm install is runnig
       run: npm install
     - name: react is building
-      run: npm build
+      run: npm run build
     - name: surge installing gloabally
       run: npm i -g  surge
     - name: surge is running
